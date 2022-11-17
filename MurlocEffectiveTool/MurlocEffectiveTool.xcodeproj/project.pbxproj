@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		237EA3772926907800C492F9 /* MurlocEffectiveToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EA3762926907800C492F9 /* MurlocEffectiveToolApp.swift */; };
+		237EA3792926907800C492F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EA3782926907800C492F9 /* ContentView.swift */; };
+		237EA37B2926907900C492F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237EA37A2926907900C492F9 /* Assets.xcassets */; };
+		237EA37F2926907900C492F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237EA37E2926907900C492F9 /* Preview Assets.xcassets */; };
+		237EA3892926907900C492F9 /* MurlocEffectiveToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EA3882926907900C492F9 /* MurlocEffectiveToolTests.swift */; };
+		237EA3932926907900C492F9 /* MurlocEffectiveToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EA3922926907900C492F9 /* MurlocEffectiveToolUITests.swift */; };
+		237EA3952926907900C492F9 /* MurlocEffectiveToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EA3942926907900C492F9 /* MurlocEffectiveToolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		237EA3852926907900C492F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 237EA36B2926907800C492F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 237EA3722926907800C492F9;
+			remoteInfo = MurlocEffectiveTool;
+		};
+		237EA38F2926907900C492F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 237EA36B2926907800C492F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 237EA3722926907800C492F9;
+			remoteInfo = MurlocEffectiveTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		237EA3732926907800C492F9 /* MurlocEffectiveTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MurlocEffectiveTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		237EA3762926907800C492F9 /* MurlocEffectiveToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurlocEffectiveToolApp.swift; sourceTree = "<group>"; };
+		237EA3782926907800C492F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		237EA37A2926907900C492F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		237EA37C2926907900C492F9 /* MurlocEffectiveTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MurlocEffectiveTool.entitlements; sourceTree = "<group>"; };
+		237EA37E2926907900C492F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		237EA3842926907900C492F9 /* MurlocEffectiveToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MurlocEffectiveToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		237EA3882926907900C492F9 /* MurlocEffectiveToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurlocEffectiveToolTests.swift; sourceTree = "<group>"; };
+		237EA38E2926907900C492F9 /* MurlocEffectiveToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MurlocEffectiveToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		237EA3922926907900C492F9 /* MurlocEffectiveToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurlocEffectiveToolUITests.swift; sourceTree = "<group>"; };
+		237EA3942926907900C492F9 /* MurlocEffectiveToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurlocEffectiveToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		237EA3702926907800C492F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237EA3812926907900C492F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237EA38B2926907900C492F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237EA36A2926907800C492F9 = {
+			isa = PBXGroup;
+			children = (
+				237EA3752926907800C492F9 /* MurlocEffectiveTool */,
+				237EA3872926907900C492F9 /* MurlocEffectiveToolTests */,
+				237EA3912926907900C492F9 /* MurlocEffectiveToolUITests */,
+				237EA3742926907800C492F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		237EA3742926907800C492F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				237EA3732926907800C492F9 /* MurlocEffectiveTool.app */,
+				237EA3842926907900C492F9 /* MurlocEffectiveToolTests.xctest */,
+				237EA38E2926907900C492F9 /* MurlocEffectiveToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		237EA3752926907800C492F9 /* MurlocEffectiveTool */ = {
+			isa = PBXGroup;
+			children = (
+				237EA3762926907800C492F9 /* MurlocEffectiveToolApp.swift */,
+				237EA3782926907800C492F9 /* ContentView.swift */,
+				237EA37A2926907900C492F9 /* Assets.xcassets */,
+				237EA37C2926907900C492F9 /* MurlocEffectiveTool.entitlements */,
+				237EA37D2926907900C492F9 /* Preview Content */,
+			);
+			path = MurlocEffectiveTool;
+			sourceTree = "<group>";
+		};
+		237EA37D2926907900C492F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				237EA37E2926907900C492F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		237EA3872926907900C492F9 /* MurlocEffectiveToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				237EA3882926907900C492F9 /* MurlocEffectiveToolTests.swift */,
+			);
+			path = MurlocEffectiveToolTests;
+			sourceTree = "<group>";
+		};
+		237EA3912926907900C492F9 /* MurlocEffectiveToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				237EA3922926907900C492F9 /* MurlocEffectiveToolUITests.swift */,
+				237EA3942926907900C492F9 /* MurlocEffectiveToolUITestsLaunchTests.swift */,
+			);
+			path = MurlocEffectiveToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		237EA3722926907800C492F9 /* MurlocEffectiveTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237EA3982926907900C492F9 /* Build configuration list for PBXNativeTarget "MurlocEffectiveTool" */;
+			buildPhases = (
+				237EA36F2926907800C492F9 /* Sources */,
+				237EA3702926907800C492F9 /* Frameworks */,
+				237EA3712926907800C492F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MurlocEffectiveTool;
+			productName = MurlocEffectiveTool;
+			productReference = 237EA3732926907800C492F9 /* MurlocEffectiveTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		237EA3832926907900C492F9 /* MurlocEffectiveToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237EA39B2926907900C492F9 /* Build configuration list for PBXNativeTarget "MurlocEffectiveToolTests" */;
+			buildPhases = (
+				237EA3802926907900C492F9 /* Sources */,
+				237EA3812926907900C492F9 /* Frameworks */,
+				237EA3822926907900C492F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				237EA3862926907900C492F9 /* PBXTargetDependency */,
+			);
+			name = MurlocEffectiveToolTests;
+			productName = MurlocEffectiveToolTests;
+			productReference = 237EA3842926907900C492F9 /* MurlocEffectiveToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		237EA38D2926907900C492F9 /* MurlocEffectiveToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237EA39E2926907900C492F9 /* Build configuration list for PBXNativeTarget "MurlocEffectiveToolUITests" */;
+			buildPhases = (
+				237EA38A2926907900C492F9 /* Sources */,
+				237EA38B2926907900C492F9 /* Frameworks */,
+				237EA38C2926907900C492F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				237EA3902926907900C492F9 /* PBXTargetDependency */,
+			);
+			name = MurlocEffectiveToolUITests;
+			productName = MurlocEffectiveToolUITests;
+			productReference = 237EA38E2926907900C492F9 /* MurlocEffectiveToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		237EA36B2926907800C492F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					237EA3722926907800C492F9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					237EA3832926907900C492F9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 237EA3722926907800C492F9;
+					};
+					237EA38D2926907900C492F9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 237EA3722926907800C492F9;
+					};
+				};
+			};
+			buildConfigurationList = 237EA36E2926907800C492F9 /* Build configuration list for PBXProject "MurlocEffectiveTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 237EA36A2926907800C492F9;
+			productRefGroup = 237EA3742926907800C492F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				237EA3722926907800C492F9 /* MurlocEffectiveTool */,
+				237EA3832926907900C492F9 /* MurlocEffectiveToolTests */,
+				237EA38D2926907900C492F9 /* MurlocEffectiveToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		237EA3712926907800C492F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237EA37F2926907900C492F9 /* Preview Assets.xcassets in Resources */,
+				237EA37B2926907900C492F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237EA3822926907900C492F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237EA38C2926907900C492F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		237EA36F2926907800C492F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237EA3792926907800C492F9 /* ContentView.swift in Sources */,
+				237EA3772926907800C492F9 /* MurlocEffectiveToolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237EA3802926907900C492F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237EA3892926907900C492F9 /* MurlocEffectiveToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		237EA38A2926907900C492F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237EA3952926907900C492F9 /* MurlocEffectiveToolUITestsLaunchTests.swift in Sources */,
+				237EA3932926907900C492F9 /* MurlocEffectiveToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		237EA3862926907900C492F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 237EA3722926907800C492F9 /* MurlocEffectiveTool */;
+			targetProxy = 237EA3852926907900C492F9 /* PBXContainerItemProxy */;
+		};
+		237EA3902926907900C492F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 237EA3722926907800C492F9 /* MurlocEffectiveTool */;
+			targetProxy = 237EA38F2926907900C492F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		237EA3962926907900C492F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		237EA3972926907900C492F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		237EA3992926907900C492F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MurlocEffectiveTool/MurlocEffectiveTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MurlocEffectiveTool/Preview Content\"";
+				DEVELOPMENT_TEAM = KWNMNWEFB6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlm.effectivetool.MurlocEffectiveTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		237EA39A2926907900C492F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MurlocEffectiveTool/MurlocEffectiveTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MurlocEffectiveTool/Preview Content\"";
+				DEVELOPMENT_TEAM = KWNMNWEFB6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlm.effectivetool.MurlocEffectiveTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		237EA39C2926907900C492F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWNMNWEFB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlm.effectivetool.MurlocEffectiveToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MurlocEffectiveTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MurlocEffectiveTool";
+			};
+			name = Debug;
+		};
+		237EA39D2926907900C492F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWNMNWEFB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlm.effectivetool.MurlocEffectiveToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MurlocEffectiveTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MurlocEffectiveTool";
+			};
+			name = Release;
+		};
+		237EA39F2926907900C492F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWNMNWEFB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlm.effectivetool.MurlocEffectiveToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MurlocEffectiveTool;
+			};
+			name = Debug;
+		};
+		237EA3A02926907900C492F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KWNMNWEFB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wlm.effectivetool.MurlocEffectiveToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MurlocEffectiveTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		237EA36E2926907800C492F9 /* Build configuration list for PBXProject "MurlocEffectiveTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237EA3962926907900C492F9 /* Debug */,
+				237EA3972926907900C492F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		237EA3982926907900C492F9 /* Build configuration list for PBXNativeTarget "MurlocEffectiveTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237EA3992926907900C492F9 /* Debug */,
+				237EA39A2926907900C492F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		237EA39B2926907900C492F9 /* Build configuration list for PBXNativeTarget "MurlocEffectiveToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237EA39C2926907900C492F9 /* Debug */,
+				237EA39D2926907900C492F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		237EA39E2926907900C492F9 /* Build configuration list for PBXNativeTarget "MurlocEffectiveToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237EA39F2926907900C492F9 /* Debug */,
+				237EA3A02926907900C492F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 237EA36B2926907800C492F9 /* Project object */;
+}
